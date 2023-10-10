@@ -1,0 +1,121 @@
+*
+{
+ margin: 0px;
+ padding: 0px;
+}
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.container .rect{
+    
+    
+    box-shadow: -1px -3px 6px 7px rgb(239, 232, 232);
+    width: 600px;
+    height: 400px;
+    position: relative;
+    text-align: center;
+}
+.rect h1{
+    margin-top: 40px;
+    color: rgb(47, 49, 44);
+}
+.rect .exp{
+    border: 1px solid rgb(247, 239, 239);
+    width: 80%;
+    display: block;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 5px;
+    background-color: rgb(241, 245, 249);
+  position: absolute;
+  
+  
+}
+.html{
+  width: 85%;
+  height: 50%;
+  background-color: rgb(85, 105, 234);
+  border-radius: 15px  0px 0px 15px;
+  animation: html 1s;
+  margin: 8px;
+  
+  
+ 
+ }
+.css{
+  width: 75%;
+  height: 50%;
+  background-color: rgb(85, 105, 236);
+  border-radius: 15px  0px 0px 15px;
+  animation: css 1s;
+  margin: 8px;
+ }
+.javascript{
+  width: 60%;
+  height: 50%;
+  background-color: rgb(85, 105, 236);
+  border-radius: 15px  0px 0px 15px;
+  animation: javascript 1s;
+  margin: 8px;
+}
+.bootstrap{
+  width: 80%;
+  height: 50%;
+  background-color: rgb(85, 105, 236);
+  border-radius: 15px  0px 0px 15px;
+  animation: bootstrap 1s;
+  margin: 8px;
+}
+.info-html {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 68%;
+    margin-top: 20px;
+  
+}
+.info-css {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 72%;
+    margin-top: 40px;
+}
+.info-javascript {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 65%;
+    margin-top: 40px;
+  
+    
+}
+.info-bootstrap{
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 65%;
+    margin-top: 40px;
+  
+}
+@keyframes html{
+    0%{ width: 0%;}
+    100%{width: 85%;}
+}
+@keyframes css{
+    0%{ width: 0%;}
+    100%{width: 75%;}
+}
+@keyframes javascript{
+    0%{ width: 0%;}
+    100%{width: 60%;}
+}
+@keyframes bootstrap{
+    0%{ width: 0%;}
+    100%{width: 80%;}
+}
